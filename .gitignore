@@ -1,0 +1,28 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local database and runtime logs
+data/adis.db
+data/adis.db-shm
+data/adis.db-wal
+logs/
+*.log
+
+# IDE-specific settings
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
